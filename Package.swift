@@ -9,7 +9,7 @@ let package = Package(
     ],
     targets: [
         .systemLibrary(name: "Clibusb",
-            pkgConfig: "libusb"
+            pkgConfig: "libusb-1.0"
         )
     ]
 )
