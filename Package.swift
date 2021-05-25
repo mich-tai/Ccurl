@@ -8,8 +8,6 @@ let package = Package(
         .library(name: "Clibusb", targets: ["Clibusb"])
     ],
     targets: [
-        .systemLibrary(name: "Clibusb",
-            pkgConfig: "libusb"
-        )
+        .systemLibrary(name: "Clibusb")
     ]
 )
