@@ -9,7 +9,7 @@ let package = Package(
     ],
     targets: [
         .systemLibrary(name: "Ccurl",
-            pkgConfig: "curl"
+            pkgConfig: "libcurl"
         )
     ]
 )
