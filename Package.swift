@@ -3,13 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "Clibusb",
+    name: "Ccurl",
     products: [
-        .library(name: "Clibusb", targets: ["Clibusb"])
+        .library(name: "Ccurl", targets: ["Ccurl"])
     ],
     targets: [
-        .systemLibrary(name: "Clibusb",
-            pkgConfig: "libusb-1.0"
+        .systemLibrary(name: "Ccurl",
+            pkgConfig: "curl"
         )
     ]
 )
